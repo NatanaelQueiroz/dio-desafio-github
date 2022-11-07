@@ -1,0 +1,25 @@
+git init -> Criar novo repositório
+
+git status -> Verificar estado dos arquivos/diretórios
+
+git add meu_arquivo.txt -> Adicionar um arquivo em específico
+
+git add meu_diretorio -> Adicionar um diretório em específico
+
+git add . -> Adicionar todos os arquivos/diretórios
+
+git add -f arquivo_no_gitignore.txt -> Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+
+git commit -m "mensagem de commit" -> Comitar informando mensagem
+
+git push -u origin master -> primeiro push de um repositório deve conter o nome do repositório remoto e o branch
+
+*após o primeiro, apenas git push
+
+git pull -> Atualizar os arquivos no branch atual
+
+git fetch -> Buscar as alterações, mas não aplica-las no branch atual
+
+git rm -r diretorio -> Remover diretório
+
+git rm qualquer_arquivo.txt -> Remover arquivo
